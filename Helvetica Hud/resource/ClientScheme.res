@@ -2670,6 +2670,16 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"HelvLight21"
+		{
+			"1"
+			{
+				"name"      "HelveticaNeueLightEDIT"
+				"tall"      "21"
+				"additive"  "0"
+				"antialias" "1"
+			}
+		}
 		"HelvLight24"
 		{
 			"1"
