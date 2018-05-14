@@ -269,7 +269,7 @@
 		"xpos"				"c-55"
 		"ypos"				"0"
 		"zpos"				"1"
-		"wide"				"110"
+		"wide"				"f0"
 		"tall"				"f0"
 		"visible"			"0"
 		"enabled"			"1"
@@ -283,12 +283,13 @@
 		
 		if_match
 		{
-			"zpos"		"5"
+			"ypos"				"2"
+			"zpos"				"5"
 		}
 		
 		"TimePanelValue"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"HelvLight32"
 			"fgcolor"		"White"
@@ -299,13 +300,12 @@
 			"tall"			"30"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"		"center"
+			"textAlignment"	"center"
 			"labelText"		"0:00"
 			
 			if_match
 			{
-				"ypos"			"3"
-				"font"			"HelvLight11"
+				"font"		"HelvBold14"
 			}
 		}	
 	}

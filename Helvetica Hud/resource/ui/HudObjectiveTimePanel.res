@@ -2,27 +2,26 @@
 {
 	"ServerTimeLimitLabel"
 	{
-		"ControlName" "CExLabel"
-		"fieldName" "ServerTimeLimitLabel"
-		"xpos" "33" 
-		"ypos" "36"
-		"zpos" "5"
-		"wide" "45"
-		"tall" "10"
-		"visible" "0"
-		"enabled" "1"
-		"labelText" "%servertimeleft%"
+		"ControlName"	"CExLabel"
+		"fieldName"		"ServerTimeLimitLabel"
+		"xpos" 			"33" 
+		"ypos" 			"36"
+		"zpos" 			"5"
+		"wide" 			"45"
+		"tall" 			"10"
+		"visible" 		"0"
+		"enabled" 		"1"
+		"labelText" 	"%servertimeleft%"
 		"textAlignment" "center"
-		"dulltext" "0"
-		"brighttext" "0"
-		"wrap" "0"
-		"font" "HelvLight18"
-		"fgcolor"	 "White"
+		"dulltext" 		"0"
+		"brighttext" 	"0"
+		"wrap" 			"0"
+		"font" 			"HelvLight18"
+		"fgcolor"	 	"White"
 		
 		if_match
 		{
-			"wide"			"0"
-			"visible"		"0"
+			"xpos"		"9999"
 		}
 	} 
 	"ServerTimeLimitLabelBG"
@@ -51,8 +50,7 @@
 		
 		if_match
 		{
-			"wide"			"0"
-			"visible"		"0"
+			"xpos"	"9999"
 		}
 	}
 
@@ -71,9 +69,7 @@
 		"scaleImage"		"1"
 		"teambg_1"		"../hud/tournament_panel_brown"
 		"teambg_2"		"../hud/tournament_panel_red"
-		"teambg_2_lodef"	"../hud/tournament_panel_red"
 		"teambg_3"		"../hud/tournament_panel_blu"
-		"teambg_3_lodef"	"../hud/tournament_panel_blu"
 		
 		"src_corner_height"	"25"				// pixels inside the image
 		"src_corner_width"	"25"
@@ -83,8 +79,7 @@
 		
 		if_match
 		{
-			"wide"			"0"
-			"visible"		"0"
+			"xpos"	"9999"
 		}
 	}
 	"TimePanelProgressBar"
@@ -109,8 +104,7 @@
 		
 		if_match
 		{
-			"wide"			"0"
-			"visible"		"0"
+			"xpos"	"9999"
 		}
 	}			
 	"WaitingForPlayersBG"
@@ -139,8 +133,7 @@
 		
 		if_match
 		{
-			"wide"			"0"
-			"visible"		"0"
+			"xpos"	"9999"
 		}
 	}			
 	"OvertimeBG"
@@ -169,8 +162,7 @@
 		
 		if_match
 		{
-			"wide"			"0"
-			"visible"		"0"
+			"xpos"	"9999"
 		}
 	}			
 	"SuddenDeathBG"
@@ -197,8 +189,7 @@
 		
 		if_match
 		{
-			"wide"			"0"
-			"visible"		"0"
+			"xpos"	"9999"
 		}
 	}	
 	"SetupBG"
