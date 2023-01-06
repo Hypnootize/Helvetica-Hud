@@ -146,8 +146,7 @@
 		
 		if_mvm
 		{
-			"ypos"			"0"
-			"tall"			"448"
+			"visible"		"0"
 		}
 	}							
 	"BlueTeamLabel"
@@ -277,7 +276,7 @@
 		
 		if_mvm
 		{
-			"ypos"			"0"
+			"visible"		"0"
 		}
 	}
 	"ServerTimeLeft"
@@ -299,7 +298,7 @@
 		
 		if_mvm
 		{
-			"ypos"			"0"
+			"visible"		"0"
 		}
 	}							
 	"BluePlayerList"
@@ -380,7 +379,7 @@
 		
 		if_mvm
 		{
-			"ypos"		"428"
+			"visible"		"0"
 		}
 	}	
 	"SpectatorsInQueue"
@@ -426,7 +425,7 @@
 		
 		if_mvm
 		{
-			"visible"		"1"
+			"visible"		"0"
 		}	
 	}
 	"MapName"
@@ -446,6 +445,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"White"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}	
 		
 	"ClassImage"
@@ -456,7 +460,7 @@
 		
 		if_mvm
 		{
-			"visible"		"1"
+			"visible"		"0"
 		}
 	}
 	"PlayerNameLabel"
@@ -466,7 +470,7 @@
 		
 		if_mvm
 		{
-			"visible"		"1"
+			"visible"		"0"
 		}
 	}							
 	"HorizontalLine"
@@ -476,7 +480,7 @@
 		
 		if_mvm
 		{
-			"visible"		"1"
+			"visible"		"0"
 		}
 	}
 	"PlayerScoreLabel"
@@ -717,7 +721,7 @@
 		
 		if_mvm
 		{
-			"visible"		"1"
+			"wide"		"0"
 		}
 
 	
@@ -1040,8 +1044,8 @@
 	{
 		"ControlName"		"CTFHudMannVsMachineScoreboard"
 		"fieldName"			"MvMScoreboard"
-		"xpos"				"0"
-		"ypos"				"0"
+		"xpos"				"c-300"
+		"ypos"				"-8"
 		"zpos"				"10"
 		"wide"				"f0"
 		"tall"				"480"
